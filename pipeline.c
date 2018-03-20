@@ -29,7 +29,7 @@ static long diff_in_us(struct timespec t1, struct timespec t2)
 
 int main(int argc, char *argv[])
 {
-
+    printf("hello");
     struct timespec start,end;
     float source[SIZE] ;
     float weight[SIZE] ;
